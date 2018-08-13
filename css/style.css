@@ -1,0 +1,94 @@
+@import url("https://fonts.googleapis.com/css?family=Delius|Great+Vibes|Neucha|Quicksand|Dosis");
+body {
+  background-color: #141e1c;
+}
+
+.game {
+  height: 660px;
+  width: 650px;
+  padding: 5px;
+  margin: 0px auto;
+  font-size: 0px;
+  border-radius: 5px;
+  background-color: #141e1c;
+  outline: 1px solid #7bfce6;
+  margin-top: 5px;
+}
+
+.block {
+  height: 11px;
+  width: 11px;
+  border-radius: 50%;
+  display: inline-block;
+  vertical-align: top;
+  margin-right: 2px;
+  margin-bottom: 2px;
+}
+.block:hover {
+  background-color: #3f5e58;
+}
+
+.block.active-old {
+  background-color: #0bc1a2;
+  box-shadow: 0px 0px 1px 1px #3f5e58;
+}
+
+.block.active-new {
+  background-color: #87ffea;
+  box-shadow: 0px 0px 1px 1px #3f5e58;
+}
+
+.block.active-died {
+  background-color: #273532;
+}
+
+.wrap-buttons {
+  padding-right: 0px;
+  padding-left: 20px;
+  margin-bottom: 10px;
+  width: 610px;
+  margin: 0px auto;
+}
+
+.wrap-bottom-buttons {
+  display: table;
+  margin: 0px auto;
+  margin-top: 5px;
+}
+
+button {
+  font-family: 'Quicksand', sans-serif;
+  font-size: 16px;
+  color: #7bfce6;
+  margin: 2px;
+  background-color: #141e1c;
+  border: 1px solid #7bfce6;
+  border-radius: 2px;
+  width: 100px;
+  height: 25px;
+  outline: 0;
+  outline: none;
+}
+button:hover {
+  background-color: #1b302c;
+}
+
+button.active {
+  box-shadow: 0px 0px 5px 2px #3f5e58;
+}
+
+.generation {
+  text-align: center;
+  font-family: 'Quicksand', sans-serif;
+  color: #7bfce6;
+  margin-top: 5px;
+  display: inline-block;
+  float: right;
+  vertical-align: bottom;
+}
+
+.generation-number {
+  display: inline-block;
+  text-align: left;
+  min-width: 100px;
+}
